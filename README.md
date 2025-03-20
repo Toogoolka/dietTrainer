@@ -33,7 +33,7 @@ mvn clean install
 
 4. Настройте параметры подключения к базе данных в файле `src/main/resources/application.properties`:
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/trainer_db
+spring.datasource.url=jdbc:postgresql://localhost:55432/trainer_db
 spring.datasource.username=postgres
 spring.datasource.password=your_db_password
 spring.jpa.hibernate.ddl-auto=update
