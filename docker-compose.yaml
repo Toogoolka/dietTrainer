@@ -1,0 +1,11 @@
+version: '3'
+services:
+  trainer-data:
+    image: postgres:latest
+    container_name: trainer-data
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: Nixu9Ise
+      POSTGRES_DB: trainer_data
+    ports:
+      - "55432:5432"
