@@ -17,7 +17,7 @@
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/your-username/trainer.git
-cd trainer
+cd dietTrainer
 ```
 
 2. Настройте **Docker Compose** для запуска базы данных PostgreSQL. В папке проекта у вас должен быть файл `docker-compose.yml`. Запустите контейнеры с базой данных:
